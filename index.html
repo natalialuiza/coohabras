@@ -3,18 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coohabras</title>
+    <title>COOHABRAS - Cooperativa Habitacional Central do Brasil</title>
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/normalize.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <script src="https://kit.fontawesome.com/8c100b4e25.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/8c100b4e25.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   </head>
   <body>
     <nav class="nav">
       <div class="nav__logo">
-        <a href="http://">
-          <img src="" alt="" />
+        <a href="index.html">
+          <img
+            class="nav__img"
+            src="./assets/img/logo/logo.png"
+            alt="Logo da Coohabras"
+          />
         </a>
       </div>
       <ul class="menu">
@@ -43,19 +50,45 @@
         Solidariedade, democracia, sustentabilidade, autonomia, transparência e
         profissionalismo.
       </h1>
+      <div class="header__icon">
+        <a href="#sobre">
+          <i class="fas fa-arrow-down"></i>
+        </a>
+      </div>
     </header>
     <main>
-      <section class="sobre">
-        <div class="sobre__card"></div>
-        <div class="sobre__card"></div>
-        <div class="sobre__card"></div>
-        <div class="sobre__card"></div>
+      <section id="sobre" class="sobre">
+        <div class="sobre__card">
+          <h2 class="sobre__titulo">Missão da Coohabras</h2>
+          <p class="sobre__paragrafo">
+            Proporcionar o acesso à habitação digna como realização de um direito básico às famílias de baixa renda
+          </p>
+        </div>
+        <div class="sobre__card">
+          <h2 class="sobre__titulo">Nossa Visão</h2>
+          <p class="sobre__paragrafo">
+            Contribuir com inovação social significativa para a superação do déficit habitacional brasileiro.
+          </p>
+        </div>
+        <div class="sobre__card">
+          <h2 class="sobre__titulo">Nossos valores</h2>
+          <p class="sobre__paragrafo">
+            Solidariedade, democracia, sustentabilidade, autonomia, transparência e profissionalismo
+          </p>
+        </div>
+        <div class="sobre__card">
+          <h2 class="sobre__titulo">Publico alvo</h2>
+          <p class="sobre__paragrafo">
+            famílias que compõem o déficit habitacional brasileiro, com foco em famílias de baixa renda
+          </p>
+        </div>
         <div class="sobre__parceiros">
-          <h3>Nossos Parceiros</h3>
+          <h3 class="sobre__titulo">Nossos Parceiros</h3>
+          <a class="parceiro__paragrafo" href="">UNISOL – Central de cooperativas e empreendimentos solidários (BR);</a>
         </div>
       </section>
       <section class="galeria">
-        <h2>Um Pouco do nosso dia a dia</h2>
+        <h2 class="galeria__titulo">Um Pouco do nosso dia a dia</h2>
       </section>
       <section class="projetos">
         <h2>Projetos em andamento</h2>
@@ -114,15 +147,23 @@
         </li>
       </ul>
       <div class="footer__endereco">
-          <p class="footer__local">Dona Leopoldina, 50 sala 5 Alto do Ipiranga - São Paulo/SP Cep: 04278 - 040</p>
-          <a class="footer__email" href="mailto:suporte@coohabras.org.br">suporte@coohabras.org.br</a>
-          <a class="footer__telefone"href="tel:1150610528">(11)95043-6145</a>
-          <a class="footer__telefone" href="tel:1150610528">(11)5061-0528</a>
+        <p class="footer__local">
+          Dona Leopoldina, 50 sala 5 Alto do Ipiranga - São Paulo/SP Cep: 04278
+          - 040
+        </p>
+        <a class="footer__email" href="mailto:suporte@coohabras.org.br"
+          >suporte@coohabras.org.br</a
+        >
+        <a class="footer__telefone" href="tel:1150610528">(11)95043-6145</a>
+        <a class="footer__telefone" href="tel:1150610528">(11)5061-0528</a>
       </div>
       <div class="footer__dev">
-          <p>Desenvolvido por <a href="http://">
-           Natália Luiza
-          </a></p>
+        <p>
+          Desenvolvido por
+          <a href="http://">
+            Natália Luiza
+          </a>
+        </p>
       </div>
     </footer>
     <script src="assets/js/script.js"></script>

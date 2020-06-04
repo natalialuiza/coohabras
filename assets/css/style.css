@@ -6,7 +6,12 @@ body {
     padding: 0;
     font-size: 10px;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;   
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
 }
 
 .nav {
@@ -37,11 +42,11 @@ body {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 325px;
+    height: 80vh;
 }
 
 .header__title {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1.4rem;
@@ -64,13 +69,18 @@ body {
 .sobre {
     background-color: #E0B0FF;
     padding: 3rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.sobre__card{
+.sobre__card, .sobre__parceiros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 2rem 0;
 }
 
-.sobre__titulo {
+.sobre__titulo, .explicacao_titulo {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -82,7 +92,7 @@ body {
     margin: 1rem 0;
 }
 
-.sobre__paragrafo, .parceiro__paragrafo{
+.sobre__paragrafo, .parceiro__paragrafo, .explicacao__paragrafo{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -93,11 +103,18 @@ body {
     color: rgba(255, 255, 255, 0.8);
 }
 
-.parceiro__paragrafo a {
+.sobre__titulo a {
     text-align: center;
 }
 
-.galeria__titulo {
+.galeria, .projetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.galeria__titulo, .projetos__titulo {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -107,4 +124,67 @@ body {
     letter-spacing: -0.015em;
 
     color: #0E9B56;
+}
+
+.galeria img, .projetos img  {
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.projetos {
+    background-color: #7FFFD4;
+}
+
+.explicacao{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #E0B0FF;
+}
+
+.explicacao__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+    text-align: center;
+}
+
+.explicacao__card img {
+    width: 60px;
+    height: 80px;
+    margin: 5px;
+}
+
+.footer, .footer__endereco {
+    background-color: #7FFFD4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer__local, .footer__email, .footer__telefone {
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 1rem;
+line-height: 22px;
+text-align: center;
+letter-spacing: -0.015em;
+margin: 4px;
+color: #0E9B56;
+
+}
+
+.footer__local {
+  font-size: 0.8rem; 
+  font-weight: bold;
+}
+
+
+
+.footer__dev {
+    margin-top: 1rem;
 }

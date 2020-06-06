@@ -14,4 +14,33 @@
     justify-content: center;
     /* flex-wrap: wrap; */
     flex-direction: column;
+    align-items: center;
+    position: relative;
 }
+
+.postilha__titulo{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: -0.333333px;
+    color: #000000;
+
+}
+
+/* .postilha__card{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+
+} */
+
+/* .postilha__img{
+    justify-content: center;
+    align-items: center;
+    height: 157px;
+    width: 150px;
+} */

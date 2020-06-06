@@ -1,15 +1,15 @@
-.box{
+.box {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.box__title{
+.box__title {
     text-align: center;
-} 
+}
 
-.box__postilhas{
+.box__postilhas {
     display: flex;
     justify-content: center;
     /* flex-wrap: wrap; */
@@ -18,7 +18,7 @@
     position: relative;
 }
 
-.postilha__titulo{
+.postilha__titulo {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -27,20 +27,17 @@
     text-align: center;
     letter-spacing: -0.333333px;
     color: #000000;
-
 }
 
-/* .postilha__card{
+.postilha__card {
     display: flex;
     justify-content: center;
     align-items: flex-end;
     flex-direction: column;
+    text-align: center;
+}
 
-} */
-
-/* .postilha__img{
-    justify-content: center;
-    align-items: center;
+.postilha__img {
     height: 157px;
     width: 150px;
-} */
+}

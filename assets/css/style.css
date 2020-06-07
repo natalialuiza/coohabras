@@ -26,7 +26,7 @@ a {
 }
 
 /* Navegação */
-.nav {
+.nav__css {
   background-color: #7fffd4;
   display: flex;
   justify-content: space-between;
@@ -181,22 +181,28 @@ input:checked ~ .menu__mobile__list {
   flex-wrap: wrap;
 }
 
-.sobre__card,
-.sobre__parceiros {
+.sobre__card{
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 1rem 0;
 }
 
+.sobre__parceiros {
+  margin: 0 auto;
+}
+
+.parceiro__paragrafo{
+  width: 80%;
+}
 .carrousel {
   width: 100%;
 }
-/* .carousel-item.active,
+.carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev{
     display:block;
-} */
+}
 
 .sobre__titulo,
 .explicacao_titulo {

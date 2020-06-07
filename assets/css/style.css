@@ -44,7 +44,6 @@ a {
 
 .menu {
   background: #7fffd4;
-  border-radius: 50%;
   width: 30px;
   height: 30px;
   cursor: pointer;
@@ -93,7 +92,7 @@ input {
 }
 
 input:checked ~ label .menu {
-    box-shadow: 0 0 0 115vw #7fffd4, 0 0 0 115vh #7fffd4;
+    box-shadow: 0 0 0 60vw #7fffd4, 0 0 0 60vh #7fffd4;
 }
 
 input:checked ~ label .hamburger {
@@ -169,9 +168,10 @@ input:checked ~ .menu__mobile__list {
   color: #ffffff;
   border: 1px solid;
   border-radius: 60px;
-  padding: 0.6rem;
-  font-size: 1rem;
+  padding: 0.8rem;
+  font-size: 1.8rem;
   margin: 20px;
+  margin-bottom: 50px;
 }
 
 .sobre {
@@ -189,6 +189,15 @@ input:checked ~ .menu__mobile__list {
   margin: 1rem 0;
 }
 
+.carrousel {
+  width: 100%;
+}
+/* .carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
+} */
+
 .sobre__titulo,
 .explicacao_titulo {
   font-family: "Montserrat", sans-serif;
@@ -200,6 +209,7 @@ input:checked ~ .menu__mobile__list {
   letter-spacing: -0.015em;
   color: #ffffff;
   margin: 1rem 0;
+
 }
 
 .sobre__paragrafo,

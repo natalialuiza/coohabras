@@ -129,13 +129,11 @@ input:checked ~ .menu__mobile__list {
     transition: .25s .1s cubic-bezier(0, 1.07, 0, 1.02);
     visibility: hidden;
     z-index: 2;
-    margin-top: 1rem;
 }
 
 .menu__mobile__item {
     text-align: center;
     width: 100%;
-    border-bottom: 1px solid #18E17F;
 }
 
 .menu__mobile__list a {
@@ -145,6 +143,7 @@ input:checked ~ .menu__mobile__list {
     text-decoration: none;
     margin: 0.7rem;
     text-align: center;
+    border-bottom: 1px solid #18E17F;
 }
 
 .menu__mobile__list a:hover {
@@ -301,7 +300,7 @@ input:checked ~ .menu__mobile__list {
   margin: 5px;
 }
 
-.footer,
+.footer__css,
 .footer__endereco {
   background-color: #7fffd4;
   display: flex;

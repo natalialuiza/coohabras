@@ -35,8 +35,12 @@ a {
 }
 
 .nav__img {
-  width: 60%;
+  width: 200px;
+  height: 40px;
   padding: 0.5rem;
+  position: absolute;
+  z-index: 999;
+  top: 10px;
 }
 
 /* Menu Hambuguer  */
@@ -44,8 +48,8 @@ a {
 
 .menu {
   background: #7fffd4;
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   cursor: pointer;
   position: relative;
   z-index: 2;
@@ -63,15 +67,15 @@ a {
   background: #0e9b56;
   width: 25px;
   height: 2px;
-  top: 15px;
+  top: 18px;
+  right: 5px;
   transition: 0.5s ease-in-out;
-  transform-origin: center;
 }
 
 .hamburguer:before,
 .hamburguer:after {
   background: #0e9b56;
-  content: "";
+  content: '';
   display: block;
   width: 100%;
   height: 100%;
@@ -88,25 +92,24 @@ a {
 }
 
 input {
-    display: none;
+  display: none;
 }
-
 input:checked ~ label .menu {
-    box-shadow: 0 0 0 60vw #7fffd4, 0 0 0 60vh #7fffd4;
+  box-shadow: 0 0 0 100vw #7fffd4, 0 0 0 40vh #7fffd4;
 }
 
-input:checked ~ label .hamburger {
-    transform: rotate(45deg);
+input:checked ~ label .hamburguer {
+  transform: rotate(45deg);
 }
 
-input:checked ~ label .hamburger:after {
-    transform: rotate(90deg);
-    bottom: 0;
+input:checked ~ label .hamburguer:before {
+  transform: rotate(90deg);
+  top: 0;
 }
 
-input:checked ~ label .hamburger:before {
-    transform: rotate(90deg);
-    top: 0;
+input:checked ~ label .hamburguer:after {
+  transform: rotate(90deg);
+  bottom: 0;
 }
 
 input:checked ~ .menu__mobile__list {
@@ -116,8 +119,9 @@ input:checked ~ .menu__mobile__list {
 
 .menu__mobile__list {
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 50%;
+    width: 100%;
     transform: translate(-50%, -50%);
     list-style: none;
     font-size: 1.3rem;
@@ -125,10 +129,13 @@ input:checked ~ .menu__mobile__list {
     transition: .25s .1s cubic-bezier(0, 1.07, 0, 1.02);
     visibility: hidden;
     z-index: 2;
+    margin-top: 1rem;
 }
 
-.menu__mobile__list li {
+.menu__mobile__item {
     text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #18E17F;
 }
 
 .menu__mobile__list a {
@@ -136,6 +143,14 @@ input:checked ~ .menu__mobile__list {
     display: block;
     margin-bottom: 1em;
     text-decoration: none;
+    margin: 0.7rem;
+    text-align: center;
+}
+
+.menu__mobile__list a:hover {
+  font-weight: bold;
+  color: #0e9b56;
+  text-decoration: none;
 }
 
 /* Header */

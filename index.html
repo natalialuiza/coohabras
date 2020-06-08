@@ -5,17 +5,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>COOHABRAS - Cooperativa Habitacional Central do Brasil</title>
-  <link rel="stylesheet" href="./assets/css/reset.css" />
-  <link rel="stylesheet" href="./assets/css/normalize.css" />
+  <!-- <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/normalize.css" /> -->
   <link rel="stylesheet" href="./assets/css/style.css" />
-  <!-- <link rel="stylesheet" href="./assets/css/gallery.min.css" />
-    <link rel="stylesheet" href="./assets/css/gallery.theme.css" /> -->
-  <script src="https://kit.fontawesome.com/8c100b4e25.js" crossorigin="anonymous"></script>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
 </head>
 
 <body>
@@ -65,7 +61,7 @@
     </h1>
     <div class="header__icon">
       <a href="#sobre">
-        <i class="fas fa-arrow-down"></i>
+        <img src="assets/img/icons/arrow.png" alt="Icone de flecha">
       </a>
     </div>
   </header>
@@ -99,72 +95,38 @@
           famílias de baixa renda
         </p>
       </div>
+    </section>
+    <section class="parceiros">
       <div class="sobre__parceiros">
-        <h3 class="sobre__titulo">Nossos Parceiros</h3>
-        <div class="box__carousel">
-        <div class="container">
-          <div id="carouselContent" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner" role="listbox">
-              <div class="carousel-item active text-center p-4">
-                <p><a class="parceiro__paragrafo" href="http://portal.unisolbrasil.org.br/" target="_blank">
-                  UNISOL – Central de cooperativas e empreendimentos
-                  solidários (BR);</a></p>
-              </div>
-              <div class="carousel-item text-center p-4">
-                <p><a class="parceiro__paragrafo" href="" target="_blank">
-                  Rede Estadual de Fundos Rotativos Solidarios SP</a></p>
-              </div>
-              <div class="carousel-item text-center p-4">
-                <p><a class="parceiro__paragrafo" href="http://www.bancoperola.org.br/" target="_blank">Banco Pérola</a></p>
-              </div>
-              <div class="carousel-item text-center p-4">
-                <p><a class="parceiro__paragrafo" href="">União Nacional por Moradia Popular</a></p>
-              </div>
-              <div class="carousel-item text-center p-4">
-                <p><a class="parceiro__paragrafo" href="">Movimento de Moradia de Paranapanema</a></p>
-              </div>
-              <div class="carousel-item text-center p-4">
-                <p><a class="parceiro__paragrafo" href="" target="_blank">INPEP (Instituto Paranaibense de Educação
-                  Popular)</a></p>
-              </div>
-              <div class="carousel-item text-center p-4">
-                <p><a class="parceiro__paragrafo" href="https://livecont.cnt.br/" target="_blank">LiveCont Assessoria
-                  contábil</a></p>
-              </div>
-              <div class="carousel-item text-center p-4">
-                <p><a class="parceiro__paragrafo" href="">Schmidt Advogados Associados</a></p>
-              </div>
-              <div class="carousel-item text-center p-4">
-                <p><a class="parceiro__paragrafo" href="https://www.coopercaps.com.br/" target="_blank">COOPERCAPS</a></p>
-              </div>
-              <div class="carousel-item text-center p-4">
-                <p><a class="parceiro__paragrafo" href="https://atlasflorestal.com.br/" target="_blank">ATLAS Florestal</a></p>
-              </div>
-              <div class="carousel-item text-center p-4">
-                <p><a class="parceiro__paragrafo" href="">RIZOMAR</a></p>
-              </div>
-              <div class="carousel-item text-center p-4">
-                <p><a class="parceiro__paragrafo" href="https://www.instagram.com/invencaoz/" target="_blank">Invenção Z</a>
-              </div>
-            </div>
-            <div class="control__carousel">
-            <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-          </div>
-            <a class="carousel-control-next" href="#carouselContent" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
+        <h3 class="parceiros__titulo">Nossos Parceiros</h3>
+        <div class="watch-slider">
+            <a class="parceiro__link" href="http://portal.unisolbrasil.org.br/" target="_blank">
+                UNISOL – Central de cooperativas e empreendimentos
+                solidários (BR);</a>
+              <a class="parceiro__link" href="" target="_blank">
+                Rede Estadual de Fundos Rotativos Solidarios SP</a>
+              <a class="parceiro__link" href="http://www.bancoperola.org.br/" target="_blank">Banco Pérola</a>
+              <a class="parceiro__link" href="">União Nacional por Moradia Popular</a>
+              <a class="parceiro__link" href="">Movimento de Moradia de Paranapanema</a>
+              <a class="parceiro__link" href="" target="_blank">INPEP (Instituto Paranaibense de Educação
+                Popular)</a>
+              <a class="parceiro__link" href="https://livecont.cnt.br/" target="_blank">LiveCont Assessoria
+                contábil</a>
+              <a class="parceiro__link" href="">Schmidt Advogados Associados</a>
+              <a class="parceiro__link" href="https://www.coopercaps.com.br/" target="_blank">COOPERCAPS</a>
+              <a class="parceiro__link" href="https://atlasflorestal.com.br/" target="_blank">ATLAS Florestal</a>
+              <a class="parceiro__link" href="">RIZOMAR</a>
+              <a class="parceiro__link" href="https://www.instagram.com/invencaoz/" target="_blank">Invenção Z</a>
         </div>
-      </div>
-      </div>
+        <div id="arrow-prev" class="arrow"></div>
+        <div id="arrow-next" class="arrow"></div>
+        
+        </div>
     </section>
     <section class="galeria" id="galeria">
       <h2 class="galeria__titulo">Um pouco do nosso dia a dia</h2>
-      <img src="./assets/img/trabalho/img01.png" alt="" srcset="" />
+          <img src="./assets/img/trabalho/img01.png" alt="">
+      </div>
     </section>
     <section class="projetos" id="projetos">
       <h2 class="projetos__titulo">Projetos em andamento</h2>
@@ -266,15 +228,7 @@
       </p>
     </div>
   </footer>
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script src="assets/js/script.js"></script>
 </body>
 

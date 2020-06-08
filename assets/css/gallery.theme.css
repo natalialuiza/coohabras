@@ -15,13 +15,12 @@
   position: relative;
 }
 .gallery .item {
-  height: 400px;
+  height: 200px;
   overflow: hidden;
   text-align: center;
-  background: #4d87e2;
 }
 .gallery .controls {
-  position: absolute;
+  /* position: absolute; */
   bottom: 0;
   width: 100%;
   text-align: center;
@@ -29,8 +28,13 @@
 .gallery .control-button {
   display: inline-block;
   margin: 0 .02em;
-  font-size: 3em;
+  font-size: 1rem;
   text-align: center;
   text-decoration: none;
   transition: color .1s;
+}
+
+.item-control {
+  color:#0e9b56 !important;
+  font-size: 45px !important;
 }

@@ -1,5 +1,3 @@
-
-
 $(function(){
   $(".watch-slider").slick({
     infinite: true,
@@ -10,5 +8,6 @@ $(function(){
     nextArrow: $("#arrow-next"),
   });
 
-
+  
 })
+

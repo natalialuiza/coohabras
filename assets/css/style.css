@@ -97,7 +97,7 @@ input {
   display: none;
 }
 input:checked ~ label .menu {
-  box-shadow: 0 0 0 100vw #7fffd4, 0 0 0 50vh #7fffd4;
+  box-shadow: 0 0 0 100vw #7fffd4, 0 0 0 40vh #7fffd4;
 }
 
 input:checked ~ label .hamburguer {
@@ -141,11 +141,10 @@ input:checked ~ .menu__mobile__list {
 .menu__mobile__list a {
     color: #0e9b56;
     display: block;
-    margin-bottom: 1em;
     text-decoration: none;
     margin: 0.7rem;
     text-align: center;
-    border-bottom: 1px solid #18E17F;
+    padding: 0.3rem;
 }
 
 .menu__mobile__list a:hover {
@@ -184,13 +183,18 @@ input:checked ~ .menu__mobile__list {
 }
 
 .header__icon {
+  padding: 1.5rem;
 }
 
+main {
+  margin: 0;
+  padding: 0;
+}
 
 /* SOBRE */
 .sobre {
   background-color: #e0b0ff;
-  padding: 3rem 1rem;
+  padding: 1rem 1rem;
   display: flex;
   flex-wrap: wrap;
 }
@@ -213,7 +217,6 @@ input:checked ~ .menu__mobile__list {
   text-align: center;
   letter-spacing: -0.015em;
   color: #ffffff;
-  margin: 1rem 0;
 }
 
 .parceiros__titulo{
@@ -240,21 +243,20 @@ color: #FFFFFF;
 }
 
 .watch-slider {
-  padding: 30px 0 30px 0;
+  padding: 20px 0 10px 0;
   overflow: hidden;
 
 }
 
 .arrow {
   display: inline-block;
-  margin: 0 10px;
-  width: 50px;
-  height: 50px;
+  margin: 10px 0;
+  width: 35px;
+  height: 30px;
   background-repeat: no-repeat;
   background-size: 70% auto;
   background-position: center;
   cursor: pointer;
-  vertical-align: middle;
 }
 
 #arrow-prev {
@@ -270,7 +272,7 @@ color: #FFFFFF;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   line-height: 1rem;
   text-align: center;
   letter-spacing: -0.015rem;
@@ -317,6 +319,7 @@ color: #FFFFFF;
 
 .explicacao {
   background: #e0b0ff;
+  padding: 1rem;
 }
 
 .explicacao__card {
@@ -379,3 +382,47 @@ color: #FFFFFF;
   color: #0e9b56;
 }
 
+@media only screen and (min-width: 480px) {
+  .header__title {
+      margin: 7rem 1.7rem;
+  }
+  .sobre__titulo{
+    font-size: 1.2rem;
+  }
+  .sobre__paragrafo, .explicacao__paragrafo {
+      font-size: 1rem;
+      line-height: 1.3rem;
+      letter-spacing: 0;
+  }
+
+  .parceiro__link{
+    font-size: 1.3rem;
+  }
+
+  
+
+  .sobre__titulo, .parceiros__titulo, .galeria__titulo, .projetos__titulo {
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+  }
+
+  .explicacao_titulo{
+    font-size: 1.2rem;
+  }
+
+  .footer__local {
+    font-size: 1rem;
+  }
+
+@media only screen and (min-width: 670px) { 
+
+}
+@media only screen and (min-width: 768px) { 
+
+ }
+@media only screen and (min-width: 992px) {
+
+}
+@media only screen and (min-width: 1382px) {
+
+ }

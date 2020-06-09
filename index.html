@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  <nav class="nav__css">
+  <nav class="nav">
     <div class="nav__logo">
       <a href="index.html">
         <img class="nav__img" src="./assets/img/logo/logo.png" alt="Logo da Coohabras" />
@@ -23,22 +23,22 @@
     </div>
     <ul class="menu__desktop">
       <li class="menu__item">
-        <a class="menu__item__link" href="http://"></a>
+        <a class="menu__item__link" href="http://">Galeria</a>
       </li>
       <li class="menu__item">
-        <a class="menu__item__link" href="http://"></a>
+        <a class="menu__item__link" href="http://">Projetos</a>
       </li>
       <li class="menu__item">
-        <a class="menu__item__link" href="http://"></a>
+        <a class="menu__item__link" href="http://">Como Funciona</a>
       </li>
       <li class="menu__item">
-        <a class="menu__item__link" href="http://"></a>
+        <a class="menu__item__link" href="http://">Quem Somos</a>
       </li>
       <li class="menu__item">
-        <a class="menu__item__link" href="http://"></a>
+        <a class="menu__item__link" href="http://">Downloads</a>
       </li>
     </ul>
-    <div>
+    <div class="menu__mobile">
       <input id="menu-hamburguer" type="checkbox" />
       <label for="menu-hamburguer">
         <div class="menu">
@@ -67,6 +67,8 @@
   </header>
   <main>
     <section class="sobre" id="quemsomos">
+      <div class="container">
+      <div class="desktop-card">
       <div class="sobre__card">
         <h2 id="sobre" class="sobre__titulo">Missão da Coohabras</h2>
         <p class="sobre__paragrafo">
@@ -81,6 +83,8 @@
           déficit habitacional brasileiro.
         </p>
       </div>
+     </div>
+     <div class="desktop-card">
       <div class="sobre__card">
         <h2 class="sobre__titulo">Nossos valores</h2>
         <p class="sobre__paragrafo">
@@ -95,6 +99,8 @@
           famílias de baixa renda
         </p>
       </div>
+      </div>
+    </div>
     </section>
     <section class="parceiros">
       <div class="sobre__parceiros">
@@ -132,8 +138,9 @@
       <img src="./assets/img/projetos/paranaíba.png" alt="" srcset="" />
     </section>
     <section class="explicacao" id="comofunciona">
+      <div class="container">
       <h2 class="parceiros__titulo">Como Funciona</h2>
-      <div class="teste">
+      <div class="desktop-card">
         <div class="explicacao__card">
           <img src="./assets/img/icons/icone01.png" alt="" class="explicacao_icon" />
           <h4 class="explicacao_titulo">Poupança Coletiva</h4>
@@ -151,6 +158,8 @@
             ser a sua casa. Vocês vão ajudar a fazer o desenho do projeto.
           </p>
         </div>
+      </div>
+      <div class="desktop-card">
         <div class="explicacao__card">
           <img src="./assets/img/icons/icone03.png" alt="" class="explicacao_icon" />
           <h4 class="explicacao_titulo">Financiamento para Construção</h4>
@@ -167,6 +176,8 @@
             cooperativado, para sua garantia e segurança plena
           </p>
         </div>
+      </div>
+      <div class="desktop-card">
         <div class="explicacao__card">
           <img src="./assets/img/icons/icone05.png" alt="" class="explicacao_icon" />
           <h4 class="explicacao_titulo">Compra Coletiva</h4>
@@ -185,6 +196,7 @@
           </p>
         </div>
       </div>
+    </div>
     </section>
   </main>
   <footer class="footer__css">

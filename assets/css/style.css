@@ -26,7 +26,7 @@ a {
 }
 
 /* Navegação */
-.nav__css {
+.nav {
   background-color: #7fffd4;
   display: flex;
   justify-content: space-between;
@@ -41,6 +41,10 @@ a {
   position: absolute;
   z-index: 999;
   top: 10px;
+}
+
+.menu__desktop{
+  display: none;
 }
 
 /* Menu Hambuguer  */
@@ -186,17 +190,15 @@ input:checked ~ .menu__mobile__list {
   padding: 1.5rem;
 }
 
-main {
-  margin: 0;
-  padding: 0;
-}
+
 
 /* SOBRE */
-.sobre {
+.sobre, .explicacao {
   background-color: #e0b0ff;
   padding: 1rem 1rem;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .sobre__card{
@@ -399,8 +401,6 @@ color: #FFFFFF;
     font-size: 1.3rem;
   }
 
-  
-
   .sobre__titulo, .parceiros__titulo, .galeria__titulo, .projetos__titulo {
       margin-bottom: 1rem;
       font-size: 1.5rem;
@@ -416,7 +416,61 @@ color: #FFFFFF;
 
 }
 
+
+
 @media only screen and (min-width: 670px) { 
+
+  .nav{
+    display: flex;
+    flex-direction: column;
+    height: 20vh !important;
+  }
+  .menu__mobile{
+    display: none;
+  }
+
+  .menu__desktop {
+    display: flex;
+    border-top: 1px solid #0E9B56;
+  }
+
+  .menu__item{
+  margin: 1rem;
+  font-family: 'Roboto, sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: .8rem;
+  text-align: center;
+  letter-spacing: -0.333333px;
+
+  color: #0E9B56;
+  }
+  .desktop-card {
+    display: flex;
+    flex-direction: row;
+  }
+  .sobre__card {
+    width: 50%;
+    margin: 2rem;
+  }
+  .nav {
+    background-color: #7fffd4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+   }
+
+   .nav__img {
+    width: 250px;
+    height: 50px;
+    padding: 0.5rem;
+    position: static;
+   }
+
+   .sobre__paragrafo, .explicacao__paragrafo {
+    width: 90%;
+   }
 
 }
 @media only screen and (min-width: 768px) { 

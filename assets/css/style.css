@@ -419,11 +419,9 @@ color: #FFFFFF;
 
 
 @media only screen and (min-width: 670px) { 
-
   .nav{
-    display: flex;
-    flex-direction: column;
-    height: 20vh !important;
+    justify-content: space-between !important;
+    /* height: 20vh !important; */
   }
   .menu__mobile{
     display: none;
@@ -431,7 +429,7 @@ color: #FFFFFF;
 
   .menu__desktop {
     display: flex;
-    border-top: 1px solid #0E9B56;
+    /* border-top: 1px solid #0E9B56; */
   }
 
   .menu__item{
@@ -439,7 +437,7 @@ color: #FFFFFF;
   font-family: 'Roboto, sans';
   font-style: normal;
   font-weight: normal;
-  font-size: .8rem;
+  font-size: 1rem;
   text-align: center;
   letter-spacing: -0.333333px;
 

@@ -1,0 +1,15 @@
+.hitoria {
+    display: flex;
+    text-align: center;
+}
+
+.historia__titulo {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.historia__item{
+    padding: 10px;
+    
+}

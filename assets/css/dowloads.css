@@ -40,4 +40,39 @@
 .postilha__img {
     height: 157px;
     width: 150px;
+    margin: 10px;
+}
+
+
+
+
+/* CELULAR */
+@media only screen and (min-width: 480px) {
+   
+}
+
+
+/* TABLETE */
+
+@media only screen and (min-width: 768px) {
+    .box__postilhas{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 5px;
+        
+    }
+
+
+}
+
+@media only screen and (min-width: 960px) {
+
+}
+
+
+/* DESKTOP */
+
+@media only screen and (min-width: 1200px) {
+
 }

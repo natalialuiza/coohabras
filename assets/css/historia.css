@@ -1,6 +1,8 @@
 .hitoria {
     display: flex;
     text-align: center;
+    position: absolute;
+
 }
 
 .historia__titulo {
@@ -10,6 +12,23 @@
 }
 
 .historia__item{
-    padding: 10px;
+    margin: 8px;
+    padding: 5px;
+    width: 285px;
+    height: 97px;
+    left: 0px;
+    /* top: -121px; */
+    font-size: 17px;
     
 }
+
+
+.time__img{
+    width: 383px;
+}
+
+#arrow-prev, #arrow-next {
+    padding: 15px;
+    font-size: 2rem;
+    color: rgb(198, 174, 253);
+  }

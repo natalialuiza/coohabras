@@ -1,5 +1,5 @@
 $(function(){
-    $(".time__slick").slick({
+    $(".time__apresentacao").slick({
   infinite: true,
   slidesToShow: 1,
   slidesToScroll: 1,

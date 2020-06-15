@@ -3,6 +3,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 2rem;
+    padding: 2rem;
 }
 
 .box__title {
@@ -40,4 +42,48 @@
 .postilha__img {
     height: 157px;
     width: 150px;
+    margin: 10px;
+}
+
+
+
+
+/* CELULAR */
+@media only screen and (min-width: 480px) {
+   
+}
+
+
+/* TABLETE */
+
+@media only screen and (min-width: 670px) {
+    .box__postilhas{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 5px;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+
+    .postilha__card{
+        display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    text-align: center;
+    }
+
+
+}
+
+@media only screen and (min-width: 960px) {
+
+}
+
+
+/* DESKTOP */
+
+@media only screen and (min-width: 1200px) {
+
 }

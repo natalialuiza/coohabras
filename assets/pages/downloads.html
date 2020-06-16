@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,67 +14,85 @@
   <body>
     <nav class="nav">
       <div class="nav__logo">
-        <a href="../../index.html">
-          <img
-            class="nav__img"
-            src="../img/logo/logo.png"
-            alt="Logo da Coohabras"
-          />
+        <a href="index.html">
+          <img class="nav__img" src="../img/logo/logo.png" alt="Logo da Coohabras" />
         </a>
       </div>
-      <ul class="menu">
+      <ul class="menu__desktop">
         <li class="menu__item">
-          <a class="menu__item__link" href="http://"></a>
+          <a class="menu__item__link" href="http://">Galeria</a>
         </li>
         <li class="menu__item">
-          <a class="menu__item__link" href="http://"></a>
+          <a class="menu__item__link" href="http://">Projetos</a>
         </li>
         <li class="menu__item">
-          <a class="menu__item__link" href="http://"></a>
+          <a class="menu__item__link" href="http://">Como Funciona</a>
         </li>
         <li class="menu__item">
-          <a class="menu__item__link" href="http://"></a>
+          <a class="menu__item__link" href="http://">Quem Somos</a>
         </li>
         <li class="menu__item">
-          <a class="menu__item__link" href="http://"></a>
+          <a class="menu__item__link" href="http://">Downloads</a>
         </li>
       </ul>
-      <div class="menu__hambuguer">
-        <i class="fas fa-bars"></i>
+      <div class="menu__mobile">
+        <input id="menu-hamburguer" type="checkbox" />
+        <label for="menu-hamburguer">
+          <div class="menu">
+            <span class="hamburguer"></span>
+          </div>
+        </label>
+        <ul class="menu__mobile__list">
+          <li class="menu__mobile__item"><a href="#quemsomos">Quem somos</a></li>
+          <li class="menu__mobile__item"><a href="#galeria">Galeria</a></li>
+          <li class="menu__mobile__item"><a href="#comofunciona">Como Funciona</a></li>
+          <li class="menu__mobile__item"><a href="#projetos">Projetos</a></li>
+          <li><a href="/assets/pages/downloads.html">Downloads</a></li>
+        </ul>
       </div>
-    </nav>
+    </nav> 
+
+
+
+
+
+
+
     <main>
       <section class="box">
         <h1 class="box__title">Downloads Gratuitos</h1>
         <div class="box__postilhas">
           <div class="postilha__card">
             <a href="https://drive.google.com/file/d/1CvfEBD1DLPwjAplg3Jdm5OO-uUgeK3sB/view" target="blank">
-            <img class="postilha__img" src="../img/download/01.png" alt="">
+            <img class="postilha__img" src="../img/download/01.png" alt="Capa do livro">
             <h2 class="postilha__titulo">Cooperativa de Habitação e Educação Popular</h2>
           </a>
           </div>
 
           <div class="postilha__card">
-            <a href="#">
-            <img href="#" class="postilha__img" src="../img/download/02.png" alt="">
+            <a href="https://drive.google.com/file/d/1NRVKgwX0giZZtOUS76O0booHHrxil8_h/view" target="blank">
+            <img href="#" class="postilha__img" src="../img/download/02.png" alt="Capa do segundo livro">
             <h2 class="postilha__titulo">Coohabras Construir Juntos</h2>
             </a>  
           </div>
+
           <div class="postilha__card">
-            <a src="https://drive.google.com/file/d/0B4rryeQy9XLjY2Q4WUZ5QVRadm8/view" target="blank">
+            <a href="https://drive.google.com/file/d/0B4rryeQy9XLjY2Q4WUZ5QVRadm8/view" target="blank">
             <img href="#" class="postilha__img" src="../img/download/03.png" alt="">
             <h2 class="postilha__titulo">Vivendo em Cooperativa</h2>
             </a>
           </div>
-          <a src="#">
+
+          
           <div class="postilha__card">
+            <a href="https://drive.google.com/open?id=1AnHhwXVZE3RpKUSRhNg-T6NaYIY7w5tB" target="blank">
             <img href="#" class="postilha__img" src="../img/download/04.png" alt="">
             <h2 class="postilha__titulo">A Questão da Habitação Popular</h2>
           </a>
           </div>
 
           <div class="postilha__card">
-            <a src="#">
+            <a href="https://drive.google.com/file/d/163MrRhP42JOLaUI3FS0_sclvunJRaIzD/view?usp=sharing" target="blank">
             <img href="#" class="postilha__img" src="../img/download/05.png" alt="">
             <h2 class="postilha__titulo">Manual do Cooperativo</h2>
           </a>
@@ -84,7 +102,7 @@
       </section>
 
     </main>
-    <footer class="footer">
+    <footer class="footer__css">
       <ul class="footer__redes-sociais">
         <li class="redes-socais__item">
           <a class="redes-socais__item__link" href="http://">
@@ -107,9 +125,7 @@
           Dona Leopoldina, 50 sala 5 Alto do Ipiranga - São Paulo/SP Cep: 04278
           - 040
         </p>
-        <a class="footer__email" href="mailto:suporte@coohabras.org.br"
-          >suporte@coohabras.org.br</a
-        >
+        <a class="footer__email" href="mailto:suporte@coohabras.org.br">suporte@coohabras.org.br</a>
         <a class="footer__telefone" href="tel:11950436145">(11)95043-6145</a>
         <a class="footer__telefone" href="tel:1150610528">(11)5061-0528</a>
       </div>

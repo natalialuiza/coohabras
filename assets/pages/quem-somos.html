@@ -1,111 +1,155 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coohabras</title>
-    <link rel="stylesheet" href="../css/reset.css" />
-    <link rel="stylesheet" href="../css/normalize.css" />
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/historia.css">
-    <script
-      src="https://kit.fontawesome.com/8c100b4e25.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <nav class="nav">
-      <div class="nav__logo">
-        <a href="http://">
-          <img src="" alt="" />
-        </a>
-      </div>
-      <ul class="menu">
-        <li class="menu__item">
-          <a class="menu__item__link" href="http://"></a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__item__link" href="http://"></a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__item__link" href="http://"></a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__item__link" href="http://"></a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__item__link" href="http://"></a>
-        </li>
-      </ul>
-      <div class="menu__hambuguer">
-        <i class="fas fa-bars"></i>
-      </div>
-    </nav>
-    <main>
-      <section class="historia">
-        <h1 class="historia__titulo">Nossa História</h1>
-        <p class="historia__item">1992 – Visita da delegação da Serra Gaúcha à FUCVAN do Uruguai</p>
-        <p class="historia__item">1993 – Campanha da Fraternidade com o tem “Onde moras”</p>
-        <p class="historia__item">1994 – Fundação da Cooperativa Habitacional Serrana</p>
-        <p class="historia__item">2010 – Fórum Social Mundial na Serra Gaúcha</p>
-      </section>
-     
-      <section class="time">
-        <h2>Nosso Time</h2>
-        <div class="time__apresentacao">
-          <h3 class="time__nome"></h3>
-          <p class="time__cargo"></p>
-          <img class="time__img" src="" alt="" />
-          <p class="time__historia"></p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coohabras</title>
+  <link rel="stylesheet" href="../css/reset.css" />
+  <link rel="stylesheet" href="../css/normalize.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/historia.css">
+  <link rel="stylesheet" href="../css/slick-theme.css">
+  <link rel="stylesheet" href="../css/slick.css">
+  <script src="https://kit.fontawesome.com/8c100b4e25.js" crossorigin="anonymous"></script>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <nav class="nav">
+    <div class="nav__logo">
+      <a href="index.html">
+        <img class="nav__img" src="../img/logo/logo.png" alt="Logo da Coohabras" />
+      </a>
+    </div>
+    <ul class="menu__desktop">
+      <li class="menu__item">
+        <a class="menu__item__link" href="http://">Galeria</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__item__link" href="http://">Projetos</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__item__link" href="http://">Como Funciona</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__item__link" href="http://">Quem Somos</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__item__link" href="http://">Downloads</a>
+      </li>
+    </ul>
+    <div class="menu__mobile">
+      <input id="menu-hamburguer" type="checkbox" />
+      <label for="menu-hamburguer">
+        <div class="menu">
+          <span class="hamburguer"></span>
         </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <ul class="footer__redes-sociais">
-        <li class="redes-socais__item">
-          <a class="redes-socais__item__link" href="http://">
-            <img class="redes-socais__img" src="" alt="" />
-          </a>
-        </li>
-        <li class="redes-socais__item">
-          <a class="redes-socais__item__link" href="http://">
-            <img class="redes-socais__img" src="" alt="" />
-          </a>
-        </li>
-        <li class="redes-socais__item">
-          <a class="redes-socais__item__link" href="http://">
-            <img class="redes-socais__img" src="" alt="" />
-          </a>
-        </li>
+      </label>
+      <ul class="menu__mobile__list">
+        <li class="menu__mobile__item"><a href="#quemsomos">Quem somos</a></li>
+        <li class="menu__mobile__item"><a href="#galeria">Galeria</a></li>
+        <li class="menu__mobile__item"><a href="#comofunciona">Como Funciona</a></li>
+        <li class="menu__mobile__item"><a href="#projetos">Projetos</a></li>
+        <li><a href="/assets/pages/downloads.html">Downloads</a></li>
       </ul>
-      <div class="footer__endereco">
-        <p class="footer__local">
-          Dona Leopoldina, 50 sala 5 Alto do Ipiranga - São Paulo/SP Cep: 04278
-          - 040
-        </p>
-        <a class="footer__email" href="mailto:suporte@coohabras.org.br"
-          >suporte@coohabras.org.br</a
-        >
-        <a class="footer__telefone" href="tel:11950436145">(11)95043-6145</a>
-        <a class="footer__telefone" href="tel:1150610528">(11)5061-0528</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="historia">
+      <h1 class="historia__titulo">Nossa História</h1>
+      <p class="historia__item">1992 – Visita da delegação da Serra Gaúcha à FUCVAN do Uruguai</p>
+      <p class="historia__item">1993 – Campanha da Fraternidade com o tem “Onde moras”</p>
+      <p class="historia__item">1994 – Fundação da Cooperativa Habitacional Serrana</p>
+      <p class="historia__item">2010 – Fórum Social Mundial na Serra Gaúcha</p>
+    </section>
+
+
+
+    <section class="time">
+      <h1>Nosso Time</h1>
+      <i id="arrow-prev" class="fas fa-angle-left mb-3"></i>
+      <div class="time__slick">
+        
+
+
+        
+
+      <div class="time__apresentacao">
+        <div class="time__individual">
+          <h3 class="time__nome">Sirlene Araújo Dias</h3>
+          <p class="time__cargo">Presidenta</p>
+          <img class="time__img" src="../img/funcionarios/sirlene.png" alt="" />
+         <p class="time__historia"> Presidenta e Educadora Popular da Cooperativa Habitacional Central do Brasil
+            (COOHABRAS),
+            entidade focada em educação cooperativista para autogestão comunitária. Formada em Pedagogia (USP), com
+            pós-graduação
+            em Teatro do Oprimido e Processos Grupais em Psicologia Social (FAMOSP) e formação em mediação privada,
+            facilitação do
+            diálogo e construção de consenso pela Palas Athena. Há mais de 20 anos atuando com movimentos e instituições
+            sociais,
+            já colaborou com Instituto Vladimir Herzog, Instituto Jatobás, Fundação Tide Setubal, ponteAponte, Projeto
+            Aprendiz.
+          </p>
+        </div>
+
+
+
       </div>
-      <div class="footer__dev">
-        <p>
-          Desenvolvido por
-          <a href="https://www.linkedin.com/in/nat%C3%A1lia-luiza-da-silva-30175415a/" target="blank">
-            Natália Luiza
-          </a>
-          e
-          <a href="https://www.linkedin.com/in/maria-souza-752681173/" target="blank">
-            Maria Souza
-          </a>
-        </p>
-      </div>
-    </footer>
-    <script src="../js/script.js"></script>
-  </body>
+      
+      <i id="arrow-next" class="fas fa-angle-right mb-3"></i>
+      
+
+
+    </section>
+  </main>
+  <footer class="footer__css">
+    <ul class="footer__redes-sociais">
+      <li class="redes-socais__item">
+        <a class="redes-socais__item__link" href="http://">
+          <img class="redes-socais__img" src="" alt="" />
+        </a>
+      </li>
+      <li class="redes-socais__item">
+        <a class="redes-socais__item__link" href="http://">
+          <img class="redes-socais__img" src="" alt="" />
+        </a>
+      </li>
+      <li class="redes-socais__item">
+        <a class="redes-socais__item__link" href="http://">
+          <img class="redes-socais__img" src="" alt="" />
+        </a>
+      </li>
+    </ul>
+    <div class="footer__endereco">
+      <p class="footer__local">
+        Dona Leopoldina, 50 sala 5 Alto do Ipiranga - São Paulo/SP Cep: 04278
+        - 040
+      </p>
+      <a class="footer__email" href="mailto:suporte@coohabras.org.br">suporte@coohabras.org.br</a>
+      <a class="footer__telefone" href="tel:11950436145">(11)95043-6145</a>
+      <a class="footer__telefone" href="tel:1150610528">(11)5061-0528</a>
+    </div>
+    <div class="footer__dev">
+      <p>
+        Desenvolvido por
+        <a href="https://www.linkedin.com/in/nat%C3%A1lia-luiza-da-silva-30175415a/" target="blank">
+          Natália Luiza
+        </a>
+        e
+        <a href="https://www.linkedin.com/in/maria-souza-752681173/" target="blank">
+          Maria Souza
+        </a>
+      </p>
+    </div>
+  </footer>
+  <script src="../js/jquery.js"></script>
+  <script src="../js/slick.min.js"></script>
+  <script src="../js/historia.js"></script>
+</body>
+
 </html>

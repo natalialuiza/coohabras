@@ -163,16 +163,20 @@ input:checked ~ .menu__mobile__list {
 
 .header {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url(../img/logo/bg.png);
   background-size: cover;
   background-position: center;
   width: 100%;
   height: 80vh;
-  position: relative;
+}
+
+.box__header{
+  display: block;
+  width: 100%;
 }
 
 .header__title {
@@ -184,14 +188,17 @@ input:checked ~ .menu__mobile__list {
   text-align: center;
   letter-spacing: -0.333333px;
   color: #ffffff;
-  margin: 7rem auto;
+  margin-bottom: 10rem;
 }
 
 .header__icon {
-  bottom: 0;
-  text-align: center;
-  position: absolute;
+  display: block;
   padding: 1.5rem;
+  bottom: 0;
+}
+
+.header__icon img {
+  text-align: center;
 }
 
 

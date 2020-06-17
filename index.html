@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="./assets/css/normalize.css" />
   <link rel="stylesheet" href="./assets/css/style.css" />
   <link rel="stylesheet" href="./assets/css/slick.css">
-  <link rel="stylesheet" href="./assets/css/slick-theme.css">
+  <link rel="stylesheet" href="./assets/css/carousel.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet" />
 </head>
@@ -136,7 +136,31 @@
     </section>
     <section class="projetos" id="projetos">
       <h2 class="projetos__titulo">Projetos em andamento</h2>
-      <img src="./assets/img/projetos/paranaíba.png" alt="" srcset="" />
+      <div class="carousel">
+      <div class="carousel__inner">
+        <div class="carousel__item">
+          <img src="./assets/img/projetos/chapeco.png" alt="" /> 
+          <h3 class="titulo__projeto">Chapecó – SC (55 famílias)</h3>
+        </div>
+        <div class="carousel__item">
+          <img src="./assets/img//projetos/fartura.jpg" alt="" /> 
+          <h3 class="titulo__projeto">Fartura – SP (60 famílias)</h3>
+        </div>
+        <div class="carousel__item">
+          <img src="./assets/img//projetos/paranapanema.jpg" alt="" /> 
+          <h3 class="titulo__projeto">Paranapanema – SP (330 famílias)</h3>
+        </div>
+        <div class="carousel__item">
+          <img src="./assets/img//projetos/paranaíba.png" alt="" /> 
+          <h3 class="titulo__projeto">Projeto Paranaíba – MS (220 famílias)</h3>
+        </div>
+      </div>
+      <div class="visible">
+      <button class="carousel__btn carousel__btn--prev"></button>
+      <button class="carousel__btn carousel__btn--next"></button>
+      </div>
+      <ul class="carousel__paginacao"></ul>
+    </div>
     </section>
     <section class="explicacao" id="comofunciona">
       <div class="container">
@@ -243,6 +267,7 @@
   <script src="assets/js/jquery.js"></script>
   <script src="assets/js/slick.min.js"></script>
   <script src="assets/js/script.js"></script>
+  <script src="assets/js/carousel.js"></script>
 </body>
 
 </html>

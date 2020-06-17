@@ -11,7 +11,7 @@
     text-align: center;
 }
 
-.box__postilhas {
+.box__postilas {
     display: flex;
     justify-content: center;
     /* flex-wrap: wrap; */
@@ -20,7 +20,7 @@
     position: relative;
 }
 
-.postilha__titulo {
+.postila__titulo {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -31,7 +31,7 @@
     color: #000000;
 }
 
-.postilha__card {
+.postila__card {
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -39,7 +39,7 @@
     text-align: center;
 }
 
-.postilha__img {
+.postila__img {
     height: 157px;
     width: 150px;
     margin: 10px;
@@ -57,7 +57,7 @@
 /* TABLETE */
 
 @media only screen and (min-width: 670px) {
-    .box__postilhas{
+    .box__postilas{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -66,7 +66,7 @@
         width: 50%;
     }
 
-    .postilha__card{
+    .postila__card{
         display: flex;
     justify-content: center;
     align-items: flex-end;

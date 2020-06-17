@@ -375,6 +375,20 @@ color: #FFFFFF;
   color: #0e9b56;
 }
 
+.footer__redes-sociais{
+  display: block;
+}
+
+.redes-socais__item{
+  display: inline-block;
+}
+
+.redes-socais__item img {
+  width: 32px;
+  height: 32px;
+  margin: 1rem .5rem;
+}
+
 .footer__dev a {
   font-weight: bold;
 }

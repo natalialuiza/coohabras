@@ -230,6 +230,7 @@ input:checked ~ .menu__mobile__list {
   text-align: center;
   letter-spacing: -0.015em;
   color: #ffffff;
+  padding-top: 1rem;
 }
 
 .parceiros__titulo{

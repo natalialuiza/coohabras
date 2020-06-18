@@ -9,6 +9,7 @@
 
 .box__title {
     text-align: center;
+    font-size:23px;
 }
 
 .box__postilas {
@@ -26,9 +27,10 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
-    text-align: center;
-    letter-spacing: -0.333333px;
+    /* text-align: center; */
+    /* letter-spacing: -0.333333px; */
     color: #000000;
+    margin: 4px;
 }
 
 .postila__card {
@@ -37,6 +39,7 @@
     align-items: flex-end;
     flex-direction: column;
     text-align: center;
+    margin: 2rem;
 }
 
 .postila__img {
@@ -46,44 +49,49 @@
 }
 
 
-
-
-/* CELULAR */
-@media only screen and (min-width: 480px) {
-   
+@media only screen and (min-width: 670px) {
+    .box__postilas{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    margin: 5px;
+    flex-wrap: wrap;
+    }
 }
 
 
-/* TABLETE */
 
-@media only screen and (min-width: 670px) {
+
+@media only screen and (min-width: 768px) {
     .box__postilas{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        /* justify-content: space-between; */
         margin: 5px;
         flex-wrap: wrap;
-        width: 50%;
+    
     }
 
-    .postila__card{
+    .postila__titulo{
+        font-size: 18px;
+    }
+
+    .box__title{
+        font-size: 2rem;
+    }
+    
+}
+
+@media only screen and (min-width: 992px){
+    .box__postilas{
         display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    flex-direction: row;
-    text-align: center;
     }
 
-
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 1382px){
+    .box__postilas{
 
-}
-
-
-/* DESKTOP */
-
-@media only screen and (min-width: 1200px) {
+    }
 
 }

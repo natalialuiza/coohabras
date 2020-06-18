@@ -327,6 +327,11 @@ color: #FFFFFF;
   color: #0e9b56;
 }
 
+.galeria__titulo{
+  margin-bottom: 1rem;
+}
+
+
 
 .galeria__box{
   width: 100%;
@@ -337,7 +342,7 @@ color: #FFFFFF;
 
 
 .single-item{
-  width: 60%;
+  width: 80%;
 }
 .galeria-item img {
   max-width: 800px;
@@ -529,6 +534,10 @@ color: #FFFFFF;
   }
   .header__icon img {
     margin-bottom: 2rem;
+  }
+
+  .single-item{
+    width: 60%;
   }
    /* .sobre__paragrafo, .explicacao__paragrafo {
     width: 90%;

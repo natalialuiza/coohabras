@@ -198,9 +198,11 @@ input:checked ~ .menu__mobile__list {
 }
 
 .header__icon img {
+  bottom: 0;
   text-align: center;
+  position: absolute;
+  margin-bottom: 3rem;
 }
-
 
 
 /* SOBRE */

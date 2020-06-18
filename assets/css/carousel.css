@@ -1,12 +1,12 @@
-
- .carousel {
-    margin: 1em auto;
+.carousel {
+    margin: 0 auto 1rem;
     max-width: 800px;
-    max-width: 960px;
+    /* max-width: 960px; */
     width: 100%;
     position: relative;
     overflow-x: auto;
 }
+ 
 .carousel__inner {
     white-space: nowrap;
     max-height: 100%;
@@ -59,7 +59,7 @@
 }
 
 .titulo__projeto{
-font-family: Montserrat;
+font-family: 'Montserrat';
 font-style: normal;
 font-weight: bold;
 font-size: 15px;

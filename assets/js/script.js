@@ -8,6 +8,15 @@ $(function(){
     nextArrow: $("#arrow-next"),
   });
 
+  $(".single-item").slick({
+    infinite: true,
+    slidesToShow: 1,
+    speed: 300,
+    slidesToScroll: 1,
+    autoplay: true,
+    prevArrow: $("#galeria-prev"),
+    nextArrow: $("#galeria-next"),
+  });
   
 })
 

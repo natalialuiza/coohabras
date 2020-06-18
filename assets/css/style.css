@@ -337,13 +337,14 @@ color: #FFFFFF;
 
 
 .single-item{
-  width: 80%;
+  width: 60%;
 }
 .galeria-item img {
-  max-width: 700px;
-  max-height: 400px;
+  max-width: 800px;
+  max-height: 500px;
   width: 100%;
   height: 100%;
+  text-align: center;
 }
 
 

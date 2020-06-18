@@ -163,15 +163,20 @@ input:checked ~ .menu__mobile__list {
 
 .header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(../img/logo/bg.png);
+    url(../img/logo/bg.webp);
   background-size: cover;
   background-position: center;
   width: 100%;
   height: 80vh;
+}
+
+.box__header{
+  display: block;
+  width: 100%;
 }
 
 .header__title {
@@ -183,11 +188,17 @@ input:checked ~ .menu__mobile__list {
   text-align: center;
   letter-spacing: -0.333333px;
   color: #ffffff;
-  margin: 7rem auto;
+  margin-bottom: 10rem;
 }
 
 .header__icon {
+  display: block;
   padding: 1.5rem;
+  bottom: 0;
+}
+
+.header__icon img {
+  text-align: center;
 }
 
 
@@ -219,6 +230,7 @@ input:checked ~ .menu__mobile__list {
   text-align: center;
   letter-spacing: -0.015em;
   color: #ffffff;
+  padding-top: 1rem;
 }
 
 .parceiros__titulo{
@@ -304,7 +316,7 @@ color: #FFFFFF;
   line-height: 40px;
   text-align: center;
   letter-spacing: -0.015em;
-
+  padding-top: 1rem;
   color: #0e9b56;
 }
 
@@ -317,6 +329,7 @@ color: #FFFFFF;
 
 .projetos {
   background-color: #7fffd4;
+  width: 100%;
 }
 
 .explicacao {
@@ -362,6 +375,20 @@ color: #FFFFFF;
   color: #0e9b56;
 }
 
+.footer__redes-sociais{
+  display: block;
+}
+
+.redes-socais__item{
+  display: inline-block;
+}
+
+.redes-socais__item img {
+  width: 32px;
+  height: 32px;
+  margin: 1rem .5rem;
+}
+
 .footer__dev a {
   font-weight: bold;
 }
@@ -398,12 +425,17 @@ color: #FFFFFF;
   }
 
   .parceiro__link{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 
-  .sobre__titulo, .parceiros__titulo, .galeria__titulo, .projetos__titulo {
+  .sobre__titulo,  .galeria__titulo, .projetos__titulo {
       margin-bottom: 1rem;
       font-size: 1.5rem;
+  }
+
+  .parceiros__titulo{
+      margin-bottom: 1rem;
+      font-size: 1.6rem;
   }
 
   .explicacao_titulo{
@@ -420,8 +452,9 @@ color: #FFFFFF;
 
 @media only screen and (min-width: 670px) { 
   .nav{
-    justify-content: space-between !important;
-    /* height: 20vh !important; */
+    justify-content: center !important;
+    flex-direction: column;
+    height: 20vh !important;
   }
   .menu__mobile{
     display: none;
@@ -429,7 +462,7 @@ color: #FFFFFF;
 
   .menu__desktop {
     display: flex;
-    /* border-top: 1px solid #0E9B56; */
+    border-top: 1px solid #0E9B56;
   }
 
   .menu__item{
@@ -466,17 +499,46 @@ color: #FFFFFF;
     position: static;
    }
 
-   .sobre__paragrafo, .explicacao__paragrafo {
+   .arrow {
+    margin: 1rem 0;
+    width: 45px;
+    height: 40px;
+
+  }
+
+   /* .sobre__paragrafo, .explicacao__paragrafo {
     width: 90%;
-   }
+    word-break: break-all;
+   } */
 
 }
 @media only screen and (min-width: 768px) { 
-
+  
  }
 @media only screen and (min-width: 992px) {
+  .header__title{
+    font-size: 2.5rem;
+    font-family: 'Roboto, sans';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 4rem;
+    text-align: center;
+    letter-spacing: -0.333333px;
+    margin: 0;
+  }
+
+  .parceiros__titulo {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+.parceiro__link{
+  margin: 1rem;
+  font-size: 1.8rem;
+}
+
+  
 
 }
 @media only screen and (min-width: 1382px) {
-
+  
 }

@@ -244,6 +244,13 @@ input:checked ~ .menu__mobile__list {
   background-color:  #e0b0ff;
 }
 
+.projetos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .sobre__parceiros{
   text-align: center;
   margin: 0;
@@ -276,11 +283,11 @@ color: #FFFFFF;
   cursor: pointer;
 }
 
-#arrow-prev {
+#arrow-prev, #galeria-prev {
   background-image: url('../img/icons/arrow-prev.png');
 }
 
-#arrow-next {
+#arrow-next, #galeria-next {
   background-image: url('../img/icons/arrow-next.png');
 }
 
@@ -302,12 +309,9 @@ color: #FFFFFF;
 
 
 /* GALERIA */
-.galeria,
-.projetos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+
+.galeria{
+  margin-bottom: 2rem;
 }
 
 .galeria__titulo,
@@ -323,12 +327,26 @@ color: #FFFFFF;
   color: #0e9b56;
 }
 
-.galeria img,
-.projetos img {
-  width: 90%;
-  max-width: 960px;
-  margin: 1rem auto;
+
+.galeria__box{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+
+.single-item{
+  width: 80%;
+}
+.galeria-item img {
+  max-width: 700px;
+  max-height: 400px;
+  width: 100%;
+  height: 100%;
+}
+
+
 
 .projetos {
   background-color: #7fffd4;
@@ -517,9 +535,7 @@ color: #FFFFFF;
    } */
 
 }
-@media only screen and (min-width: 768px) { 
-  
- }
+
 @media only screen and (min-width: 992px) {
   .header__title{
     font-size: 2.5rem;
@@ -543,7 +559,4 @@ color: #FFFFFF;
 
   
 
-}
-@media only screen and (min-width: 1382px) {
-  
 }

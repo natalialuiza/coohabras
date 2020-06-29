@@ -2,7 +2,7 @@ html, body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: Roboto;
+  font-family: "Montserrat", "sans-serif";
   
 }
 
@@ -35,9 +35,16 @@ html, body {
  .time{
   background-color:  #E0B0FF;
   width: 100%;
-	display: inline-block;
-  margin: auto;
-  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+}
+
+.time__titulo{
+  color: white;
+  padding: 10px;
+    margin: 15px;
 }
 
 .time__titulo{
@@ -47,25 +54,148 @@ html, body {
 }
 
 
-img {
-  border-radius: 310px;
-  text-align: center;
-  justify-content: center;
+.box__img img  {
+  border-radius: 50%;
+  text-align: center !important;
   width: 100%;
   max-width: 400px;
   margin: 20px;
   padding: 10px;
 }
 
+
+.box__img{ 
+  text-align: center;
+
+}
+
 .time__individual{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   color: white;
   font-size: 15px;
+  width: 100%;
+}
+
+.time__completo{
+  width: 100%;
+  max-width: 960px;
 }
 
 
+
+
+.seta__container{
+  display: inline-block;
+}
 #arrow-prev, #arrow-next {
     padding: 15px;
     font-size: 2rem;
     color: rgb(198, 174, 253);
   }
+
+
+
+
+
+
+
+  @media only screen and (min-width: 320px) {
+    /* .time__titulo{
+
+    } */
+
+    .box__img img {
+      width: 87%;
+    }
+
+    .time__historia{
+      font-size: 14px;
+    }
+
+  }
+
+
+  @media only screen and (min-width: 480px){
+    h3{
+      padding: 6px;
+      margin: 6px;
+    }
+
+  }
+
+
+  @media only screen and (min-width: 768px){
+   
+    .historia__titulo{
+      font-size: 25px;
+    }
+
+    .historia__item{
+      width: 90%;
+      text-align: center;
+
+    }
+
+    .time__titulo{
+      font-size: 25px;
+    }
+
+    
+  .time__informacoes{
+    font-size: 18px;
+  }
+
+    .box__img img {
+      width: 100%;
+    }
+
+    .time__historia{
+      font-size: 18px;
+    }
+
+
+    .box__img img  {
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+  }
+
+  @media only screen and (min-width: 960px){
+    .time__historia{
+      width: 80%;
+    }
+
+  }
+
+
+  @media only screen and (min-width: 1200px){
+    .historia__titulo{
+      font-size: 32px;
+      margin: 20px;
+      padding: 2rem;
+}
+
+.historia__item{
+  font-size: 22px;
+}
+
+.time__titulo{
+  font-size: 32px;
+}
+
+.time__informacoes{
+  font-size: 23px;
+}
+
+.time__historia{
+  width: 88%;
+}
+    }
+
+    
+
  

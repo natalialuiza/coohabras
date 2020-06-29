@@ -39,7 +39,12 @@ html, body {
   justify-content: center;
   align-items:center;
   flex-direction: column;
-  
+}
+
+.time__titulo{
+  color: white;
+  padding: 10px;
+    margin: 15px;
 }
 
 .time__titulo{
@@ -57,6 +62,7 @@ html, body {
   margin: 20px;
   padding: 10px;
 }
+
 
 .box__img{ 
   text-align: center;
@@ -88,6 +94,7 @@ html, body {
     font-size: 2rem;
     color: rgb(198, 174, 253);
   }
+
 
 
 
@@ -190,4 +197,5 @@ html, body {
     }
 
     
+
  

@@ -21,9 +21,9 @@ Para acessar layout desenvolvido durante o projeto, [clique aqui](https://www.fi
 
 
 ### Membros
-Natália Luiza - Front-End 
-Maria Souza - Front-End
-Hiago Lima - UX Design
+- Natália Luiza - Front-End 
+- Maria Souza - Front-End
+- Hiago Lima - UX Design
 
 
 

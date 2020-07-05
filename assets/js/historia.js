@@ -5,6 +5,7 @@ $(document).ready(function(){
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
+    speed: 700,
     prevArrow: $("#arrow-prev"),
     nextArrow: $("#arrow-next"),
   });

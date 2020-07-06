@@ -22,9 +22,10 @@ html, body {
 }
 
 .historia__item{
-    margin: 8px;
-    padding: 5px;
-    font-size: 17px;
+  margin: 2rem;
+  padding: 5px;
+  font-size: 17px;
+  white-space: pre-wrap;
     
 }
 
@@ -124,23 +125,33 @@ padding: 1rem;
       margin: 6px;
     }
 
+    .time__historia{
+      font-size: 1.3rem;
+    line-height: 1.3rem;
+    letter-spacing: 0;
+    }
+
   }
 
 
   @media only screen and (min-width: 768px){
    
     .historia__titulo{
-      font-size: 25px;
+      font-size: 3.5rem;
     }
 
     .historia__item{
       width: 90%;
       text-align: center;
+      width: 90%;
+      text-align: center;
+      font-size: 2.5rem;
+      margin: 4rem;
 
     }
 
     .time__titulo{
-      font-size: 25px;
+      font-size: 3.5rem;
     }
 
     
@@ -149,11 +160,13 @@ padding: 1rem;
   }
 
     .box__img img {
-      width: 100%;
+      width: 70%;
     }
 
     .time__historia{
-      font-size: 18px;
+      font-size: 2rem;
+      line-height: 2.3rem;
+      letter-spacing: 0;
     }
 
 
@@ -165,38 +178,36 @@ padding: 1rem;
 
   }
 
-
-
   @media only screen and (min-width: 960px){
-    .time__historia{
-      width: 100%;
-      text-align: center !important;
+    .historia__item{
+      line-height: 5rem;
     }
-
   }
+
+  
 
 
   @media only screen and (min-width: 1200px){
     .historia__titulo{
-      font-size: 32px;
-      margin: 20px;
-      padding: 2rem;
+      font-size: 5rem;
+      
 }
 
 .historia__item{
-  font-size: 22px;
+  font-size: 4rem;
+  line-height: 7rem;
 }
 
 .time__titulo{
-  font-size: 32px;
+  font-size: 5rem;
 }
 
-.time__informacoes{
-  font-size: 23px;
-}
+
 
 .time__historia{
-  width: 88%;
+  width: 100%;
+  line-height: 3rem;
+  font-size: 2.5rem;
 }
     }
 

@@ -8,7 +8,10 @@ $(document).ready(function(){
     speed: 700,
     prevArrow: $("#arrow-prev"),
     nextArrow: $("#arrow-next"),
+    
   });
+
+  
 });
 
 

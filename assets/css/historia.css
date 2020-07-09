@@ -203,25 +203,30 @@ padding: 1rem;
 }
 
 .time__informacoes{
-  margin: 10px;
+  margin: 4px;
 }
 
 
 
 .time__historia{
-  width: 100%;
-  line-height: 2rem;
-  font-size: 1.5rem;
+    width: 100%;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    padding: 11px;
 }
 
 
 
+
 .box__img img  {
-  max-width: 350px; /* largura do box */
-  padding: 0 5%; /* padding à esquerda e à direita */
-  border-width: 0 1%; /* borda à esquerda e à direita */
-  box-sizing:border-box
+  max-width: 270px;
+  padding: 0px 6%;
+  border-width: 0 1%;
+  box-sizing: border-box;
+}
 
+.time{
+  padding-bottom: 0%;
+}
 
-
-    }
+  }

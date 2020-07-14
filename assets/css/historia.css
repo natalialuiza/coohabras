@@ -151,22 +151,25 @@ padding: 1rem;
     }
 
     .time__titulo{
-      font-size: 3.5rem;
+      font-size: 2.4rem;
     }
 
     
   .time__informacoes{
     font-size: 18px;
+    margin: 10px;
   }
 
     .box__img img {
-      width: 70%;
+      width: 45%;
     }
 
     .time__historia{
-      font-size: 2rem;
-      line-height: 2.3rem;
-      letter-spacing: 0;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    letter-spacing: 0;
+    padding: 0 3rem;
+    margin: 1rem 0;
     }
 
 
@@ -181,6 +184,14 @@ padding: 1rem;
   @media only screen and (min-width: 960px){
     .historia__item{
       line-height: 5rem;
+    }
+
+    .box__img img{
+      padding: 0 2rem;
+    }
+
+    .time__informacoes{
+      margin: 20px;
     }
   }
 

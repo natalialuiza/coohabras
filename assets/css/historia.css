@@ -151,22 +151,25 @@ padding: 1rem;
     }
 
     .time__titulo{
-      font-size: 3.5rem;
+      font-size: 2.4rem;
     }
 
     
   .time__informacoes{
     font-size: 18px;
+    margin: 10px;
   }
 
     .box__img img {
-      width: 70%;
+      width: 45%;
     }
 
     .time__historia{
-      font-size: 2rem;
-      line-height: 2.3rem;
-      letter-spacing: 0;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    letter-spacing: 0;
+    padding: 0 3rem;
+    margin: 1rem 0;
     }
 
 
@@ -181,6 +184,14 @@ padding: 1rem;
   @media only screen and (min-width: 960px){
     .historia__item{
       line-height: 5rem;
+    }
+
+    .box__img img{
+      padding: 0 2rem;
+    }
+
+    .time__informacoes{
+      margin: 20px;
     }
   }
 
@@ -203,25 +214,30 @@ padding: 1rem;
 }
 
 .time__informacoes{
-  margin: 10px;
+  margin: 4px;
 }
 
 
 
 .time__historia{
-  width: 100%;
-  line-height: 2rem;
-  font-size: 1.5rem;
+    width: 100%;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    padding: 11px;
 }
 
 
 
+
 .box__img img  {
-  max-width: 350px; /* largura do box */
-  padding: 0 5%; /* padding à esquerda e à direita */
-  border-width: 0 1%; /* borda à esquerda e à direita */
-  box-sizing:border-box
+  max-width: 270px;
+  padding: 0px 6%;
+  border-width: 0 1%;
+  box-sizing: border-box;
+}
 
+.time{
+  padding-bottom: 0%;
+}
 
-
-    }
+  }

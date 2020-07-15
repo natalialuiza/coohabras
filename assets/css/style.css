@@ -31,16 +31,12 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 10vh;
 }
 
 .nav__img {
   width: 200px;
   height: 40px;
   padding: 0.5rem;
-  position: absolute;
-  z-index: 999;
-  top: 10px;
 }
 
 .menu__desktop{
@@ -135,6 +131,7 @@ input:checked ~ .menu__mobile__list {
     transition: .25s .1s cubic-bezier(0, 1.07, 0, 1.02);
     visibility: hidden;
     z-index: 2;
+    margin-top: 15px;
 }
 
 .menu__mobile__item {
@@ -438,6 +435,15 @@ color: #FFFFFF;
   color: #0e9b56;
 }
 
+
+@media only screen and (min-width: 400px){
+  .nav__img {
+    top: 18px;
+}
+
+}
+
+
 @media only screen and (min-width: 480px) {
   .header__title {
       margin: 7rem 1.7rem;
@@ -474,6 +480,7 @@ color: #FFFFFF;
   }
 
 }
+
 
 
 

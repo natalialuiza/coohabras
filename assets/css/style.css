@@ -34,9 +34,8 @@ a {
 }
 
 .nav__img {
-  width: 200px;
-  height: 40px;
-  padding: 0.5rem;
+  width: 150px;
+  height: 70px;
 }
 
 .menu__desktop{
@@ -137,6 +136,8 @@ input:checked ~ .menu__mobile__list {
 .menu__mobile__item {
     text-align: center;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .menu__mobile__list a {
@@ -152,6 +153,21 @@ input:checked ~ .menu__mobile__list {
   font-weight: bold;
   color: #0e9b56;
   text-decoration: none;
+}
+
+.btn__login {
+    background: #034985;
+    border: none;
+    border-radius: 8px;
+    color: #fff !important;
+    padding: 0.5rem !important;
+    width: 300px;
+    font-weight: bold;
+}
+
+.btn__login:hover {
+  background: #052a4b;
+  color: #fff !important;
 }
 
 
@@ -192,7 +208,7 @@ input:checked ~ .menu__mobile__list {
   display: block;
   padding: 1.5rem;
   position: absolute;
-  bottom: 0;
+  bottom: 46px;
 }
 
 .header__icon img {
@@ -484,11 +500,9 @@ color: #FFFFFF;
 
 
 
-@media only screen and (min-width: 670px) { 
+@media only screen and (min-width: 770px) { 
   .nav{
-    justify-content: center !important;
-    flex-direction: column;
-    height: 20vh !important;
+    justify-content: space-between !important;
   }
   .menu__mobile{
     display: none;
@@ -496,11 +510,11 @@ color: #FFFFFF;
 
   .menu__desktop {
     display: flex;
-    border-top: 1px solid #0E9B56;
+    align-items: center;
   }
 
   .menu__item{
-  margin: 1rem;
+  margin: 0.8rem;
   font-family: 'Roboto, sans';
   font-style: normal;
   font-weight: normal;
@@ -523,14 +537,12 @@ color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh;
+
    }
 
    .nav__img {
-    width: 250px;
-    height: 50px;
-    padding: 0.5rem;
-    position: static;
+    width: 150px;
+    height: 80px;
    }
 
    .arrow {
@@ -546,6 +558,10 @@ color: #FFFFFF;
   .single-item{
     width: 60%;
   }
+
+  .btn__login {
+    width: 100px;
+}
    /* .sobre__paragrafo, .explicacao__paragrafo {
     width: 90%;
     word-break: break-all;

@@ -166,9 +166,8 @@ input:checked ~ .menu__mobile__list {
 }
 
 .btn__login:hover {
-  background: #fff;
-  color: #034985 !important;
-  border: 1px solid #034985;
+  background: #052a4b;
+  color: #fff !important;
 }
 
 

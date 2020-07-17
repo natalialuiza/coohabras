@@ -208,7 +208,7 @@ input:checked ~ .menu__mobile__list {
   display: block;
   padding: 1.5rem;
   position: absolute;
-  bottom: 46px;
+  bottom: 10px;
 }
 
 .header__icon img {

@@ -176,7 +176,7 @@ input:checked ~ .menu__mobile__list {
   flex-direction: column;
   justify-content: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(../img/logo/bg.webp);
+    url(../img/logo/photo_2020-08-04_13-58-50.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
